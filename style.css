@@ -13,17 +13,16 @@
   margin: 0;
 }
 
-
-
-
-
 .calcolatrice{
   display: flex;
   flex-direction: column;
   display: flex;
   height: auto;
   width: 400px;
+  box-shadow: 50px 50px 20px rgba(0, 0, 0, 0.689);
 }
+
+
 .display{
   display: flex;
   flex-direction: row ;
@@ -35,6 +34,7 @@
   border-bottom: none;
   height: 100px;
   width: 400px;
+  
 
 }
 .operators{
@@ -117,7 +117,7 @@
   top: 40%;
   right: 100px;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.5); 
+  background-color: rgba(255, 255, 255, 0.6); 
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: none;
@@ -140,20 +140,23 @@
   left: 50%;
   transform: translateX(-50%);
   transition: bottom 2s ease-in-out;
+  display: none;
 }
 .curiosite {
+  font-weight: bold;
   color: rgb(0, 0, 0);
   position: fixed;
-  top: 30%;
+  top: 80%;
   right: 20px;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.5); 
+  background-color: rgba(255, 255, 255, 0.9); 
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   width: 300px; 
   border-radius: 9px;
   font-size: 22px;
+  
 }
 
 }
